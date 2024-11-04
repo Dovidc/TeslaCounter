@@ -2,7 +2,7 @@ const apiToken = "Cp3RixO2C5GictJF1TBfteW8GXT9pjAB9DYwbw2V";
 const stockSymbol = "TSLA";  // Hardcoded stock symbol
 const purchasePrice = 150.00;  // Hardcoded purchase price
 
-async function fetchStockPrice(symbol) {
+async function fetchStockPrice(TSLA) {
   const url = `https://api.stockdata.org/v1/data/quote?symbols=TSLA&api_token=Cp3RixO2C5GictJF1TBfteW8GXT9pjAB9DYwbw2V`;
 
   try {
